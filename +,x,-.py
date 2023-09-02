@@ -21,3 +21,6 @@ class times:
         p = self.multiplier_1 * self.multiplier_2
         print(p)
 
+
+times_1 = times(10,3)
+times_1.product()

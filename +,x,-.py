@@ -10,3 +10,11 @@ class plus:
 plus_1 = plus(1,7)
 plus_1.sum()
 
+print("--------------------------")
+
+
+class times:
+    def __init__(self, x, y):
+        self.multiplier_1 = x
+        self.multiplier_2 = y
+

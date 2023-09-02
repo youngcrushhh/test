@@ -17,4 +17,7 @@ class times:
     def __init__(self, x, y):
         self.multiplier_1 = x
         self.multiplier_2 = y
+    def product(self):
+        p = self.multiplier_1 * self.multiplier_2
+        print(p)
 

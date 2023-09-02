@@ -31,3 +31,7 @@ class minus:
     def __init__(self,x,y):
         self.minuend= x
         self.subtrahend = y
+    def difference(self):
+        s = self.minuend - self.subtrahend
+        print(s)
+

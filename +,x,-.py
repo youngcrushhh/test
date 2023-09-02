@@ -24,3 +24,10 @@ class times:
 
 times_1 = times(10,3)
 times_1.product()
+
+print("--------------------------")
+
+class minus:
+    def __init__(self,x,y):
+        self.minuend= x
+        self.subtrahend = y

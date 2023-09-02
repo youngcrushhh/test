@@ -7,5 +7,9 @@ class reduction:
         print(self.num)
         print('-')
         print(self.denom)
+    def redc(self):
+        global k
+        k = math.gcd(self.num, self.denom)
+        print(k)
 
 

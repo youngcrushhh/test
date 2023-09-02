@@ -7,3 +7,6 @@ class plus:
         print(s)
 
 
+plus_1 = plus(1,7)
+plus_1.sum()
+

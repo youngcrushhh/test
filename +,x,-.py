@@ -35,3 +35,5 @@ class minus:
         s = self.minuend - self.subtrahend
         print(s)
 
+minus_1 = minus(2,10)
+minus_1.difference()
